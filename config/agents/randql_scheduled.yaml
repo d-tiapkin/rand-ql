@@ -1,0 +1,5 @@
+agent_class: 'algorithms.rand_ql.rand_ql.RandomizedQLAgent'
+init_kwargs:
+  gamma: 1.0
+  scheduled: True
+  sampling: False

@@ -1,0 +1,16 @@
+description: 'RandQL vs baseline'
+seed: 123
+train_env: 'config/envs/env_gridworld.yaml'
+eval_env: 'config/envs/env_gridworld.yaml'
+global_init_kwargs:
+  horizon: 50
+global_fit_kwargs:
+  fit_budget: 30000
+agents:
+  - 'config/agents/optql.yaml'
+  - 'config/agents/randql.yaml'
+  - 'config/agents/ucbvi.yaml'
+  - 'config/agents/psrl.yaml'
+  - 'config/agents/rlsvi.yaml'
+  - 'config/agents/greedy_ucbvi.yaml'
+

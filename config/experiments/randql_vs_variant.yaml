@@ -1,0 +1,12 @@
+description: 'RandQL vs variant'
+seed: 123
+train_env: 'config/envs/env_gridworld.yaml'
+eval_env: 'config/envs/env_gridworld.yaml'
+global_init_kwargs:
+  horizon: 50
+global_fit_kwargs:
+  fit_budget: 30_000
+agents:
+  - 'config/agents/randql_scheduled.yaml'
+  - 'config/agents/randql.yaml'
+  - 'config/agents/sampled_randql.yaml'

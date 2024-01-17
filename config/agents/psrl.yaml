@@ -1,0 +1,3 @@
+agent_class: 'rlberry.agents.PSRLAgent'
+init_kwargs:
+  gamma: 1.0

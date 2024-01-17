@@ -1,0 +1,3 @@
+agent_class: 'rlberry.agents.UCBVIAgent'
+init_kwargs:
+  gamma: 1.0

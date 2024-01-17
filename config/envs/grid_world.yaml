@@ -1,0 +1,6 @@
+#constructor: 'rlberry.envs.benchmarks.grid_exploration.nroom.NRoom'
+constructor: 'envs.grid_world.grid_world.constructor'
+params:
+    nrooms: 5
+    room_size: 5
+    success_probability: 0.8

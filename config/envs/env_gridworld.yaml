@@ -1,0 +1,5 @@
+constructor: 'config.envs.env_constructor.constructor'
+params:
+  nrows: 10
+  ncols: 10
+  success_probability: 0.8
